@@ -11,6 +11,6 @@ class StepsModule extends AbstractModule {
 
     @Override
     protected void configure() {
-        bind(IStep.class).toInstance(new Steps(steps))
+        bind(ISteps.class).toInstance(new Steps(steps))
     }
 }
