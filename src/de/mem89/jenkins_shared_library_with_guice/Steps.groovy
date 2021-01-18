@@ -1,7 +1,7 @@
 package de.mem89.jenkins_shared_library_with_guice
 
 class Steps implements ISteps, Serializable {
-    private final steps;
+    private final steps
 
     Steps(Object steps) {
         this.steps = steps
